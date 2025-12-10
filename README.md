@@ -8,6 +8,8 @@
   </a>
 </div>
 
+![](./assets/ConfluentIntelligence.png)
+
 Build real-time AI agents with [Confluent Cloud Streaming Agents](https://docs.confluent.io/cloud/current/ai/streaming-agents/overview.html). This quickstart includes three hands-on labs:
 
 <table>
@@ -33,7 +35,7 @@ Build real-time AI agents with [Confluent Cloud Streaming Agents](https://docs.c
 
 **Required accounts & credentials:**
 
-- [![Sign up for Confluent Cloud](https://img.shields.io/badge/Sign%20up%20for%20Confluent%20Cloud-007BFF?style=for-the-badge&logo=apachekafka&logoColor=white)](https://www.confluent.io/get-started/?utm_campaign=tm.pmm_cd.q4fy25-quickstart-streaming-agents&utm_source=github&utm_medium=demo)
+- [![Sign up for Confluent Cloud](https://img.shields.io/badge/Sign%20up%20for%20Confluent%20Cloud-007BFF?style=for-the-badge&logo=apachekafka&logoColor=white)](https://www.confluent.io/get-started/?utm_campaign=tm.pmm_cd.q4fy25-quickstart-streaming-agents&utm_source=github&utm_medium=demo) or [cnfl.io/pricematching](https://cnfl.io/pricematching)
 - **Lab1:** Zapier remote MCP server ([Setup guide](./assets/pre-setup/Zapier-Setup.md))
 - **Lab2:** MongoDB Atlas vector database ([Setup guide](./assets/pre-setup/MongoDB-Setup.md))
 - **Lab3:** Zapier ([Setup guide](./assets/pre-setup/Zapier-Setup.md)) + MongoDB ([Setup guide](./assets/pre-setup/MongoDB-Setup.md))
@@ -79,7 +81,7 @@ cd quickstart-streaming-agents
 **One command deployment:**
 
 ```bash
-uv run deploy
+uv run deploy --workshop
 ```
 
 That's it! The script will guide you through setup, automatically create API keys, and deploy your chosen lab(s).

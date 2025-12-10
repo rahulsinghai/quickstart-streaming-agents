@@ -12,6 +12,7 @@
 *.cursor-*
 *.swp
 *.swo
+.history/
 
 # Claude Code
 .claude/

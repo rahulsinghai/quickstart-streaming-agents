@@ -4,6 +4,8 @@ In this lab, we'll use Apache Flink for Confluent Cloud's MCP tool calling featu
 
 ![Architecture Diagram](./assets/lab1/lab1-architecture.png)
 
+![Overview.png](./assets/lab1/Overview.png)
+
 ## Prerequisites
 
 - Zapier free account and remote MCP server set up (instructions [here](./assets/pre-setup/Zapier-Setup.md))
@@ -14,11 +16,13 @@ In this lab, we'll use Apache Flink for Confluent Cloud's MCP tool calling featu
 
 ## Deploy the Demo
 
-Once you have these credentials ready, run the following command and choose **Lab3** (see [main README](./README.md)):
+Once you have these credentials ready, run the following command and choose **Lab1** (see [main README](./README.md)):
 
   ```bash
-  uv run deploy
+  uv run deploy --workshop
   ```
+
+![Confluent Integrations](./assets/lab1/ConfluentIntegrations.png)
 
 # Getting Started
 
